@@ -1,0 +1,745 @@
+﻿Log file open, 05/09/15 01:32:47
+LogInit:Display: Running engine for game: Prototype
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: F:/Epic/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.08-17.32.47:366][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.08-17.32.47:420][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.08-17.32.47:434][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.08-17.32.47:443][  0]LogInit: Object subsystem initialized
+[2015.05.08-17.32.47:444][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.08-17.32.47:445][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/U3D/1-3-life-choices/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-17.32.47:445][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.08-17.32.47:445][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/U3D/1-3-life-choices/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-17.32.47:445][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.08-17.32.47:445][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/U3D/1-3-life-choices/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-17.32.47:445][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.08-17.32.47:445][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.08-17.32.47:467][  0]LogInit: Computer: RAYMONDMG
+[2015.05.08-17.32.47:467][  0]LogInit: User: RMG
+[2015.05.08-17.32.47:467][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.08-17.32.47:467][  0]LogInit: High frequency timer resolution =2.435776 MHz
+[2015.05.08-17.32.47:468][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.05.08-17.32.47:468][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.08-17.32.47:468][  0]LogMemory: Process Physical Memory: 47.38 MB used, 47.38 MB peak
+[2015.05.08-17.32.47:468][  0]LogMemory: Process Virtual Memory: 24.49 MB used, 24.49 MB peak
+[2015.05.08-17.32.47:468][  0]LogMemory: Physical Memory: 3465.11 MB used, 8073.02 MB total
+[2015.05.08-17.32.47:468][  0]LogMemory: Virtual Memory: 286.68 MB used, 134217728.00 MB total
+[2015.05.08-17.32.47:538][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.05.08-17.32.47:538][  0]LogD3D11RHI: Adapter has 4078MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
+[2015.05.08-17.32.47:539][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.08-17.32.47:539][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.08-17.32.47:539][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.08-17.32.47:544][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.08-17.32.47:552][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.08-17.32.47:704][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save):
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Editor/zh-CN/Editor.locres) Hash: (-669349758) String: (保存)
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Hash: (-669349758) String: (保持)
+[2015.05.08-17.32.47:704][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Editor/zh-CN/Editor.locres) Hash: (-29098895) String: (保存所有当前关卡到磁盘中)
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Hash: (-1280300587) String: (保存选择的数据到vlog文件)
+[2015.05.08-17.32.47:704][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Editor/zh-CN/Editor.locres) Hash: (-630476809) String: (导入到{0}...)
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Editor/zh-CN/Editor.locres) Hash: (1271782899) String: (从文件中导入资源到这个文件夹内。)
+[2015.05.08-17.32.47:771][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.08-17.32.49:725][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-17.32.50:181][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-17.32.50:227][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.08-17.32.50:269][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/RMG/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.08-17.32.50:269][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RMG/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.08-17.32.50:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../U3D/1-3-life-choices/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.08-17.32.50:269][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.08-17.32.50:375][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.08-17.32.50:388][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RMG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.08-17.32.50:623][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.08-17.32.50:623][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.08-17.32.50:982][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.08-17.32.51:037][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.08-17.32.51:675][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.08-17.32.51:874][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-17.32.51:874][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-17.32.51:874][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-17.32.51:874][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.08-17.32.51:874][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.08-17.32.51:880][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-17.32.52:008][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.08-17.32.52:008][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.08-17.32.52:075][  0]LogEngine: Initializing Engine...
+[2015.05.08-17.32.54:239][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.08-17.32.54:260][  0]LogInit: FAudioDevice initialized.
+[2015.05.08-17.32.54:285][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.08-17.32.54:308][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/RMG/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.08-17.32.54:310][  0]LogInit: Texture streaming: Enabled
+[2015.05.08-17.32.54:379][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.08-17.32.54:379][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.05.08-17.32.54:379][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.05.08-17.32.54:379][  0]LogAnalytics: SetUserId ff36e97c47fc0dce0794ddbc8f88a228|197ccca8ace4469dbd28a387a822afed|95cd838e-8492-4e16-832d-77cf58ff72cc
+[2015.05.08-17.32.54:379][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.08-17.32.54:408][  0]LogInit: Transaction tracking system initialized
+[2015.05.08-17.32.54:524][  0]BlueprintLog: New page: 编辑器加载
+[2015.05.08-17.32.54:551][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.05.08-17.32.54:551][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.08-17.32.55:040][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-17.32.55:415][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-17.32.55:612][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.08-17.32.55:612][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.08-17.32.55:616][  0]LogConsoleResponse:Display: 
+[2015.05.08-17.32.55:717][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.08-17.32.55:812][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-17.32.55:812][  0]Cmd: MAP LOAD FILE="../../../../../../U3D/1-3-life-choices/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.08-17.32.55:812][  0]LightingResults: New page: 光照构建
+[2015.05.08-17.32.55:820][  0]MapCheck: New page: 地图检测
+[2015.05.08-17.32.55:820][  0]LightingResults: New page: 光照构建
+[2015.05.08-17.32.55:827][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003753168720
+[2015.05.08-17.32.56:357][  0]LoadErrors:Error: 错误 SkeletalMeshComponent导入失败
+[2015.05.08-17.32.56:651][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.08-17.32.57:564][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.08-17.32.57:565][  0]Cmd: MAP CHECKDEP
+[2015.05.08-17.32.57:565][  0]MapCheck: New page: FirstPersonExampleMap - 2015年5月9日 上午9:32:57
+[2015.05.08-17.32.57:621][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时54.753毫秒完成。
+[2015.05.08-17.32.57:621][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.808
+[2015.05.08-17.32.57:786][  0]LogCollectionManager: Loaded 0 collections in 0.001072 seconds
+[2015.05.08-17.32.57:794][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1696 classes and 261 folders.
+[2015.05.08-17.32.57:806][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.08-17.32.57:816][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.05.08-17.32.57:855][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.08-17.32.57:856][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.08-17.32.57:861][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2015.05.08-17.32.57:888][  0]LogLoad: Full Startup: 12.19 seconds (BP compile: 0.16 seconds)
+[2015.05.08-17.32.58:100][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.05.08-17.33.00:100][  6]LogAssetRegistry: Asset discovery search completed in 5.5594 seconds
+[2015.05.08-17.33.04:674][ 79]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.08-17.33.04:674][ 79]PIE: New page: PIE会话: FirstPersonExampleMap (2015年5月9日 上午9:33:04)
+[2015.05.08-17.33.04:700][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024963s)
+[2015.05.08-17.33.04:703][ 79]LogPlayLevel: PIE: World Init took: (0.002361s)
+[2015.05.08-17.33.04:703][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027750s)
+[2015.05.08-17.33.04:774][ 79]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.33.04:777][ 79]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.08-17.33.04:783][ 79]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.05.09-01.33.04
+[2015.05.08-17.33.04:784][ 79]LogWorld: Bringing up level for play took: 0.006568
+[2015.05.08-17.33.04:785][ 79]PIE: 信息 /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap的‘在编辑器中播放’的起始时间-0.356
+[2015.05.08-17.33.10:786][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037101F2660
+[2015.05.08-17.33.14:737][228]Cmd: MAP LOAD FILE="../../../../../../U3D/1-3-life-choices/Content/MR.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.08-17.33.14:737][228]LightingResults: New page: 光照构建
+[2015.05.08-17.33.14:762][228]LoadErrors: New page: 正在加载地图： MR.umap
+[2015.05.08-17.33.14:763][228]MapCheck: New page: 地图检测
+[2015.05.08-17.33.14:763][228]LightingResults: New page: 光照构建
+[2015.05.08-17.33.14:772][228]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000375F96C680
+[2015.05.08-17.33.14:855][228]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.08-17.33.14:895][228]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.33.14:918][228]Cmd: MAP CHECKDEP
+[2015.05.08-17.33.14:918][228]MapCheck: New page: MR - 2015年5月9日 上午9:33:14
+[2015.05.08-17.33.14:993][228]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时74.564毫秒完成。
+[2015.05.08-17.33.14:993][228]LogFileHelpers: Loading map 'MR' took 0.257
+[2015.05.08-17.33.50:225][988]BlueprintLog: New page: 编译MR
+[2015.05.08-17.33.50:844][988]BlueprintEditorCompileResults: 信息 [0065.14]MR编译成功！[用时618毫秒]
+[2015.05.08-17.33.56:796][ 99]BlueprintLog: New page: 编译MR
+[2015.05.08-17.33.57:342][ 99]BlueprintEditorCompileResults: 信息 [0071.64]MR编译成功！[用时546毫秒]
+[2015.05.08-17.33.58:885][119]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.33.58:919][119]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.33.59:515][119]LogPlayLevel: PIE:  Blueprint regeneration took 629 ms (1 blueprints)
+[2015.05.08-17.33.59:515][119]PIE: New page: PIE会话: MR (2015年5月9日 上午9:33:59)
+[2015.05.08-17.33.59:925][119]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.33.59:925][119]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.33.59:936][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.33.59:936][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.33.59:942][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.33.59:942][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.33.59:978][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.33.59:978][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:002][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:002][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:018][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:018][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:046][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:046][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:062][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:062][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:071][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:071][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:072][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:072][119]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.34.00:255][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.739407s)
+[2015.05.08-17.34.00:256][119]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2015.05.08-17.34.00:256][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.740161s)
+[2015.05.08-17.34.00:303][119]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.34.00:305][119]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.34.00:333][119]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.34.00
+[2015.05.08-17.34.00:338][119]LogWorld: Bringing up level for play took: 0.032315
+[2015.05.08-17.34.00:340][119]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.2
+[2015.05.08-17.34.14:099][373]LogCharacterMovement: FirstPersonCharacter_C_4 is stuck and failed to move!
+[2015.05.08-17.34.14:099][373]LogCharacterMovement: FirstPersonCharacter_C_4 is stuck and failed to move!
+[2015.05.08-17.34.14:153][374]LogCharacterMovement: FirstPersonCharacter_C_4 is stuck and failed to move!
+[2015.05.08-17.34.14:153][374]LogCharacterMovement: FirstPersonCharacter_C_4 is stuck and failed to move!
+[2015.05.08-17.34.14:208][375]LogCharacterMovement: FirstPersonCharacter_C_4 is stuck and failed to move!
+[2015.05.08-17.34.14:208][375]LogCharacterMovement: FirstPersonCharacter_C_4 is stuck and failed to move!
+[2015.05.08-17.34.14:265][376]LogCharacterMovement: FirstPersonCharacter_C_4 is stuck and failed to move!
+[2015.05.08-17.34.58:984][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000370360D580
+[2015.05.08-17.35.10:155][668]BlueprintLog: New page: 编译MR
+[2015.05.08-17.35.10:757][668]BlueprintEditorCompileResults: 信息 [0145.05]MR编译成功！[用时602毫秒]
+[2015.05.08-17.35.12:169][686]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.35.12:213][686]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.35.12:817][686]LogPlayLevel: PIE:  Blueprint regeneration took 648 ms (1 blueprints)
+[2015.05.08-17.35.12:817][686]PIE: New page: PIE会话: MR (2015年5月9日 上午9:35:12)
+[2015.05.08-17.35.13:227][686]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:228][686]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:240][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:240][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:246][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:246][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:281][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:281][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:305][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:305][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:322][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:322][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:352][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:352][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:367][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:367][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:377][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:377][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:379][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:379][686]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.35.13:566][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.747769s)
+[2015.05.08-17.35.13:566][686]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2015.05.08-17.35.13:566][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.748481s)
+[2015.05.08-17.35.13:601][686]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.35.13:603][686]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.35.13:631][686]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.35.13
+[2015.05.08-17.35.13:636][686]LogWorld: Bringing up level for play took: 0.032734
+[2015.05.08-17.35.13:638][686]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间0.498
+[2015.05.08-17.35.19:873][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000375CE7B880
+[2015.05.08-17.38.10:762][892]BlueprintLog: New page: 编译MR
+[2015.05.08-17.38.11:396][892]BlueprintEditorCompileResults: 信息 [0325.69]MR编译成功！[用时634毫秒]
+[2015.05.08-17.38.13:106][913]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.38.13:144][913]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.38.13:780][913]LogPlayLevel: PIE:  Blueprint regeneration took 674 ms (1 blueprints)
+[2015.05.08-17.38.13:780][913]PIE: New page: PIE会话: MR (2015年5月9日 上午9:38:13)
+[2015.05.08-17.38.14:198][913]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:198][913]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:210][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:210][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:216][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:216][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:251][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:251][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:274][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:274][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:290][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:290][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:319][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:319][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:335][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:335][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:344][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:344][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:346][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:346][913]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.38.14:538][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.756728s)
+[2015.05.08-17.38.14:538][913]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2015.05.08-17.38.14:538][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.757467s)
+[2015.05.08-17.38.14:576][913]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.38.14:579][913]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.38.14:620][913]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.38.14
+[2015.05.08-17.38.14:625][913]LogWorld: Bringing up level for play took: 0.044172
+[2015.05.08-17.38.14:627][913]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.487
+[2015.05.08-17.38.21:735][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003705ECB240
+[2015.05.08-17.40.03:145][178]BlueprintLog: New page: 编译MR
+[2015.05.08-17.40.03:763][178]BlueprintEditorCompileResults: 信息 [0438.06]MR编译成功！[用时617毫秒]
+[2015.05.08-17.40.06:009][204]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.40.06:045][204]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.40.06:641][204]LogPlayLevel: PIE:  Blueprint regeneration took 633 ms (1 blueprints)
+[2015.05.08-17.40.06:641][204]PIE: New page: PIE会话: MR (2015年5月9日 上午9:40:06)
+[2015.05.08-17.40.07:046][204]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:046][204]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:058][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:058][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:064][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:064][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:100][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:100][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:125][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:125][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:141][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:141][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:169][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:169][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:184][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:184][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:193][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:193][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:195][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:195][204]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.40.07:367][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.725094s)
+[2015.05.08-17.40.07:368][204]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2015.05.08-17.40.07:368][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.725895s)
+[2015.05.08-17.40.07:400][204]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.40.07:403][204]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.40.07:448][204]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.40.07
+[2015.05.08-17.40.07:454][204]LogWorld: Bringing up level for play took: 0.049924
+[2015.05.08-17.40.07:456][204]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间2.315
+[2015.05.08-17.40.17:632][397]LogCharacterMovement: FirstPersonCharacter_C_7 is stuck and failed to move!
+[2015.05.08-17.40.17:688][398]LogCharacterMovement: FirstPersonCharacter_C_7 is stuck and failed to move!
+[2015.05.08-17.41.01:292][818]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003706B693A0
+[2015.05.08-17.41.19:267][334]BlueprintLog: New page: 编译MR
+[2015.05.08-17.41.19:879][334]BlueprintEditorCompileResults: 信息 [0514.18]MR编译成功！[用时611毫秒]
+[2015.05.08-17.41.22:623][363]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.41.22:670][363]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.41.23:263][363]LogPlayLevel: PIE:  Blueprint regeneration took 639 ms (1 blueprints)
+[2015.05.08-17.41.23:263][363]PIE: New page: PIE会话: MR (2015年5月9日 上午9:41:23)
+[2015.05.08-17.41.23:668][363]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:668][363]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:680][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:680][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:686][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:686][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:722][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:722][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:747][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:747][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:763][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:763][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:791][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:791][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:806][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:807][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:816][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:816][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:817][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:817][363]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.41.23:993][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.729812s)
+[2015.05.08-17.41.23:993][363]LogPlayLevel: PIE: World Init took: (0.000469s)
+[2015.05.08-17.41.23:993][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.730529s)
+[2015.05.08-17.41.24:031][363]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.41.24:032][363]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.41.24:059][363]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.41.24
+[2015.05.08-17.41.24:065][363]LogWorld: Bringing up level for play took: 0.032124
+[2015.05.08-17.41.24:067][363]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间0.926
+[2015.05.08-17.42.51:823][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003706B699E0
+[2015.05.08-17.42.58:401][207]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0018 seconds. Added 15 classes and 2 folders.
+[2015.05.08-17.42.58:406][207]LogInit: Transaction tracking system initialized
+[2015.05.08-17.42.58:406][207]EditorErrors: New page: Matinee初始化
+[2015.05.08-17.43.24:099][905]LogInit: Transaction tracking system initialized
+[2015.05.08-17.43.24:100][905]EditorErrors: New page: Matinee初始化
+[2015.05.08-17.44.08:473][503]LogInit: Transaction tracking system initialized
+[2015.05.08-17.44.08:473][503]EditorErrors: New page: Matinee初始化
+[2015.05.08-17.44.59:990][674]BlueprintLog: New page: 编译MR
+[2015.05.08-17.45.00:582][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000375E1A9BC0
+[2015.05.08-17.45.00:583][674]LogExit: Transaction tracking system shut down
+[2015.05.08-17.45.00:583][674]LogExit: Transaction tracking system shut down
+[2015.05.08-17.45.00:583][674]LogExit: Transaction tracking system shut down
+[2015.05.08-17.45.00:600][674]BlueprintEditorCompileResults: 信息 [0734.90]MR编译成功！[用时609毫秒]
+[2015.05.08-17.45.03:015][714]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.45.03:049][714]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.45.03:640][714]LogPlayLevel: PIE:  Blueprint regeneration took 625 ms (1 blueprints)
+[2015.05.08-17.45.03:641][714]PIE: New page: PIE会话: MR (2015年5月9日 上午9:45:03)
+[2015.05.08-17.45.04:045][714]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:045][714]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:057][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:057][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:062][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:062][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:098][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:098][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:122][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:122][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:138][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:138][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:167][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:167][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:182][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:182][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:191][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:191][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:193][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:193][714]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.45.04:371][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.730584s)
+[2015.05.08-17.45.04:372][714]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2015.05.08-17.45.04:372][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.731628s)
+[2015.05.08-17.45.04:409][714]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.45.04:411][714]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.45.04:439][714]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.45.04
+[2015.05.08-17.45.04:444][714]LogWorld: Bringing up level for play took: 0.033052
+[2015.05.08-17.45.04:446][714]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.306
+[2015.05.08-17.45.39:631][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003713F09BC0
+[2015.05.08-17.46.04:969][ 29]LogTemp: Dropped ElevatorOpenOrNot on Category Authority Narrator
+[2015.05.08-17.46.51:607][231]BlueprintLog: New page: 编译MR
+[2015.05.08-17.46.52:215][231]BlueprintEditorCompileResults: 信息 [0846.51]MR编译成功！[用时608毫秒]
+[2015.05.08-17.46.54:116][262]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.46.54:154][262]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.46.54:747][262]LogPlayLevel: PIE:  Blueprint regeneration took 631 ms (1 blueprints)
+[2015.05.08-17.46.54:747][262]PIE: New page: PIE会话: MR (2015年5月9日 上午9:46:54)
+[2015.05.08-17.46.55:149][262]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:149][262]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:162][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:162][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:167][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:167][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:204][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:204][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:227][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:228][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:243][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:243][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:272][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:272][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:299][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:299][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:316][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:316][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:318][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:318][262]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.46.55:496][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.748379s)
+[2015.05.08-17.46.55:497][262]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2015.05.08-17.46.55:497][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.749169s)
+[2015.05.08-17.46.55:530][262]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.46.55:531][262]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.46.55:560][262]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.46.55
+[2015.05.08-17.46.55:566][262]LogWorld: Bringing up level for play took: 0.034102
+[2015.05.08-17.46.55:568][262]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间2.428
+[2015.05.08-17.48.01:311][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003704868C20
+[2015.05.08-17.48.51:979][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.08-17.48.54:832][553]LogSavePackage: Save=2837.630859ms
+[2015.05.08-17.48.54:832][553]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MR_Auto168A833A742C0AE280F5B1E82B31D6FCA.tmp' to '../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto1.umap'
+[2015.05.08-17.48.54:841][553]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MR' took 2.979
+[2015.05.08-17.48.54:841][553]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.979
+[2015.05.08-17.54.19:554][969]BlueprintLog: New page: 编译MR
+[2015.05.08-17.54.20:220][969]BlueprintEditorCompileResults: 信息 [1294.52]MR编译成功！[用时666毫秒]
+[2015.05.08-17.54.23:458][ 26]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.54.23:497][ 26]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.54.24:137][ 26]LogPlayLevel: PIE:  Blueprint regeneration took 677 ms (1 blueprints)
+[2015.05.08-17.54.24:137][ 26]PIE: New page: PIE会话: MR (2015年5月9日 上午9:54:24)
+[2015.05.08-17.54.24:570][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:570][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:582][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:582][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:587][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:587][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:623][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:623][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:646][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:646][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:662][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:662][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:691][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:691][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:707][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:707][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:716][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:716][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:718][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:718][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:806][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:806][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.54.24:926][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.789256s)
+[2015.05.08-17.54.24:926][ 26]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2015.05.08-17.54.24:927][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.790053s)
+[2015.05.08-17.54.24:958][ 26]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.54.24:960][ 26]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.54.24:988][ 26]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.54.24
+[2015.05.08-17.54.24:993][ 26]LogWorld: Bringing up level for play took: 0.032458
+[2015.05.08-17.54.24:995][ 26]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.855
+[2015.05.08-17.55.14:328][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003707D34220
+[2015.05.08-17.56.42:827][939]BlueprintLog: New page: 编译MR
+[2015.05.08-17.56.43:489][939]BlueprintEditorCompileResults: 信息 [1437.79]MR编译成功！[用时661毫秒]
+[2015.05.08-17.56.45:075][957]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-17.56.45:120][957]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-17.56.45:786][957]LogPlayLevel: PIE:  Blueprint regeneration took 711 ms (1 blueprints)
+[2015.05.08-17.56.45:786][957]PIE: New page: PIE会话: MR (2015年5月9日 上午9:56:45)
+[2015.05.08-17.56.46:233][957]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:233][957]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:244][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:245][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:250][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:250][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:286][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:286][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:310][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:310][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:326][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:326][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:356][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:356][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:372][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:372][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:381][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:381][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:383][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:383][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:464][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:464][957]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-17.56.46:586][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.799341s)
+[2015.05.08-17.56.46:587][957]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2015.05.08-17.56.46:587][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.800109s)
+[2015.05.08-17.56.46:624][957]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-17.56.46:626][957]LogAIModule: Creating AISystem for world MR
+[2015.05.08-17.56.46:654][957]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-01.56.46
+[2015.05.08-17.56.46:659][957]LogWorld: Bringing up level for play took: 0.033145
+[2015.05.08-17.56.46:661][957]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.521
+[2015.05.08-17.57.43:726][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003703B79800
+[2015.05.08-17.59.42:035][340]EditorErrors: New page: Actor附加物
+[2015.05.08-18.00.47:169][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.08-18.00.50:335][209]LogSavePackage: Save=3142.175537ms
+[2015.05.08-18.00.50:335][209]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MR_Auto2DCC3C02D46E71CEF5F124082479A829B.tmp' to '../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto2.umap'
+[2015.05.08-18.00.50:344][209]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MR' took 3.269
+[2015.05.08-18.00.50:344][209]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.269
+[2015.05.08-18.02.49:407][469]LogTemp: Dropped ElevatorEnterOnce on Category Authority Narrator
+[2015.05.08-18.05.00:603][751]BlueprintLog: New page: 编译MR
+[2015.05.08-18.05.01:324][751]BlueprintEditorCompileResults: 信息 [1935.62]MR编译成功！[用时721毫秒]
+[2015.05.08-18.05.06:693][869]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-18.05.06:734][869]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-18.05.07:428][869]LogPlayLevel: PIE:  Blueprint regeneration took 734 ms (1 blueprints)
+[2015.05.08-18.05.07:428][869]PIE: New page: PIE会话: MR (2015年5月9日 上午10:05:07)
+[2015.05.08-18.05.07:895][869]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:895][869]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:906][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:906][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:911][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:911][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:948][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:948][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:973][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:973][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:989][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.07:989][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:018][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:018][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:034][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:034][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetUI) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:043][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:043][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:045][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:045][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:126][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:126][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:159][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:159][869]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-18.05.08:289][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.861156s)
+[2015.05.08-18.05.08:289][869]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2015.05.08-18.05.08:290][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.861947s)
+[2015.05.08-18.05.08:343][869]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-18.05.08:349][869]LogAIModule: Creating AISystem for world MR
+[2015.05.08-18.05.08:396][869]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.09-02.05.08
+[2015.05.08-18.05.08:402][869]LogWorld: Bringing up level for play took: 0.051944
+[2015.05.08-18.05.08:404][869]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.264
+[2015.05.08-18.05.48:141][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003727637880
+[2015.05.08-18.06.18:289][281]LogInit: Transaction tracking system initialized
+[2015.05.08-18.06.18:289][281]EditorErrors: New page: Matinee初始化
+[2015.05.08-18.06.53:407][ 46]LogInit: Transaction tracking system initialized
+[2015.05.08-18.06.53:407][ 46]EditorErrors: New page: Matinee初始化
+[2015.05.08-18.08.54:330][468]LogInit: Transaction tracking system initialized
+[2015.05.08-18.08.54:330][468]EditorErrors: New page: Matinee初始化
+[2015.05.08-18.12.28:896][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Content/MR.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.08-18.12.28:924][943]LogExit: Transaction tracking system shut down
+[2015.05.08-18.12.28:925][943]LogExit: Transaction tracking system shut down
+[2015.05.08-18.12.28:925][943]LogExit: Transaction tracking system shut down
+[2015.05.08-18.12.32:267][943]LogSavePackage: Save=3280.210205ms
+[2015.05.08-18.12.32:267][943]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MRC024669C44E62C5755FF1B9C1A0DFA54.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MR.umap'
+[2015.05.08-18.12.47:138][204]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.05.08-18.13.29:813][443]LogInit: Transaction tracking system initialized
+[2015.05.08-18.13.29:813][443]EditorErrors: New page: Matinee初始化
+[2015.05.08-18.14.57:689][987]LogInit: Transaction tracking system initialized
+[2015.05.08-18.14.57:689][987]EditorErrors: New page: Matinee初始化
+[2015.05.08-18.15.26:004][744]Cmd: TRANSACTION UNDO
+[2015.05.08-18.15.26:004][744]LogEditorTransaction: Undo 删除组
+[2015.05.08-18.15.28:425][782]LogEditorViewport: Clicking Background
+[2015.05.08-18.16.19:355][ 36]LogExit: Transaction tracking system shut down
+[2015.05.08-18.16.22:049][ 37]Cmd: QUIT_EDITOR
+[2015.05.08-18.16.22:272][ 37]LogExit: Preparing to exit.
+[2015.05.08-18.16.23:087][ 37]LogExit: Editor shut down
+[2015.05.08-18.16.23:087][ 37]LogExit: Transaction tracking system shut down
+[2015.05.08-18.16.23:088][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000375E1665C0
+[2015.05.08-18.16.23:089][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000375E1A9F80
+[2015.05.08-18.16.23:089][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037203E7A60
+[2015.05.08-18.16.23:089][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000375E164AE0
+[2015.05.08-18.16.23:090][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037101F16C0
+[2015.05.08-18.16.23:091][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000376DDE3420
+[2015.05.08-18.16.23:091][ 37]LogExit: Transaction tracking system shut down
+[2015.05.08-18.16.23:162][ 37]LogExit: Object subsystem successfully closed.
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module DistCurveEditor (179)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module Matinee (178)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.08-18.16.23:202][ 37]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.08-18.16.23:827][ 37]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.08-18.16.23:828][ 37]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.08-18.16.23:857][ 37]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.08-18.16.23:857][ 37]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.08-18.16.23:857][ 37]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.08-18.16.23:858][ 37]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.08-18.16.23:858][ 37]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.08-18.16.23:858][ 37]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.08-18.16.23:858][ 37]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.08-18.16.23:858][ 37]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.08-18.16.23:858][ 37]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.08-18.16.23:859][ 37]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.08-18.16.24:082][ 37]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.08-18.16.24:083][ 37]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.08-18.16.24:083][ 37]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.08-18.16.24:083][ 37]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.08-18.16.24:083][ 37]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.08-18.16.24:085][ 37]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.08-18.16.24:085][ 37]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.08-18.16.24:085][ 37]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.08-18.16.24:085][ 37]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.08-18.16.24:086][ 37]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.08-18.16.24:086][ 37]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.08-18.16.24:086][ 37]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.08-18.16.24:086][ 37]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.08-18.16.24:086][ 37]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.08-18.16.24:086][ 37]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.08-18.16.24:086][ 37]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.08-18.16.24:088][ 37]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.08-18.16.24:088][ 37]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.08-18.16.24:088][ 37]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.08-18.16.24:189][ 37]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.08-18.16.24:189][ 37]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.08-18.16.24:193][ 37]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.08-18.16.24:193][ 37]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.08-18.16.24:193][ 37]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.08-18.16.24:193][ 37]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.08-18.16.24:194][ 37]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.08-18.16.24:200][ 37]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.08-18.16.24:201][ 37]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.08-18.16.24:230][ 37]LogDerivedDataCache: Shutdown
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.08-18.16.24:230][ 37]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.08-18.16.24:239][ 37]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.08-18.16.24:240][ 37]LogExit: Exiting.
+[2015.05.08-18.16.24:246][ 37]Log file closed, 05/09/15 02:16:24

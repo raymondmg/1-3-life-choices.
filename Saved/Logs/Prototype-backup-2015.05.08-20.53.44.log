@@ -1,0 +1,836 @@
+﻿Log file open, 05/08/15 18:45:26
+LogInit:Display: Running engine for game: Prototype
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: F:/Epic/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.08-10.45.26:851][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.08-10.45.26:927][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.08-10.45.26:949][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.08-10.45.26:966][  0]LogInit: Object subsystem initialized
+[2015.05.08-10.45.26:968][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.08-10.45.26:968][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/U3D/1-3-life-choices/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-10.45.26:968][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.08-10.45.26:968][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/U3D/1-3-life-choices/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-10.45.26:968][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.08-10.45.26:968][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/U3D/1-3-life-choices/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-10.45.26:968][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.08-10.45.26:968][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.08-10.45.26:973][  0]LogInit: Computer: RAYMONDMG
+[2015.05.08-10.45.26:974][  0]LogInit: User: RMG
+[2015.05.08-10.45.26:974][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.08-10.45.26:974][  0]LogInit: High frequency timer resolution =2.435776 MHz
+[2015.05.08-10.45.26:974][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.05.08-10.45.26:974][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.08-10.45.26:974][  0]LogMemory: Process Physical Memory: 47.05 MB used, 47.05 MB peak
+[2015.05.08-10.45.26:974][  0]LogMemory: Process Virtual Memory: 24.46 MB used, 24.46 MB peak
+[2015.05.08-10.45.26:974][  0]LogMemory: Physical Memory: 5770.46 MB used, 8073.02 MB total
+[2015.05.08-10.45.26:974][  0]LogMemory: Virtual Memory: 286.68 MB used, 134217728.00 MB total
+[2015.05.08-10.45.26:989][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.05.08-10.45.26:989][  0]LogD3D11RHI: Adapter has 4078MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
+[2015.05.08-10.45.26:990][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.08-10.45.26:990][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.08-10.45.26:990][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.08-10.45.26:994][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.08-10.45.27:002][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.08-10.45.27:103][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save):
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Editor/zh-CN/Editor.locres) Hash: (-669349758) String: (保存)
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Hash: (-669349758) String: (保持)
+[2015.05.08-10.45.27:103][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Editor/zh-CN/Editor.locres) Hash: (-29098895) String: (保存所有当前关卡到磁盘中)
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Hash: (-1280300587) String: (保存选择的数据到vlog文件)
+[2015.05.08-10.45.27:103][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Editor/zh-CN/Editor.locres) Hash: (-630476809) String: (导入到{0}...)
+Resource: (F:/Epic/Epic Games/4.7/Engine/Content/Localization/Editor/zh-CN/Editor.locres) Hash: (1271782899) String: (从文件中导入资源到这个文件夹内。)
+[2015.05.08-10.45.27:170][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.08-10.45.29:124][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-10.45.29:564][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-10.45.29:608][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.08-10.45.29:645][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/RMG/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.08-10.45.29:645][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RMG/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.08-10.45.29:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../U3D/1-3-life-choices/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.08-10.45.29:645][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.08-10.45.29:748][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.08-10.45.29:761][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RMG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.08-10.45.29:988][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.08-10.45.29:988][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.08-10.45.30:342][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.08-10.45.30:396][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.08-10.45.31:000][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.08-10.45.31:181][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-10.45.31:181][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-10.45.31:181][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-10.45.31:181][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.08-10.45.31:182][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.08-10.45.31:187][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-10.45.31:315][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.08-10.45.31:315][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.08-10.45.31:384][  0]LogEngine: Initializing Engine...
+[2015.05.08-10.45.33:521][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.08-10.45.33:538][  0]LogInit: FAudioDevice initialized.
+[2015.05.08-10.45.33:563][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.08-10.45.33:582][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/RMG/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.08-10.45.33:584][  0]LogInit: Texture streaming: Enabled
+[2015.05.08-10.45.33:652][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.08-10.45.33:652][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.05.08-10.45.33:652][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.05.08-10.45.33:652][  0]LogAnalytics: SetUserId ff36e97c47fc0dce0794ddbc8f88a228|197ccca8ace4469dbd28a387a822afed|95cd838e-8492-4e16-832d-77cf58ff72cc
+[2015.05.08-10.45.33:652][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.08-10.45.33:680][  0]LogInit: Transaction tracking system initialized
+[2015.05.08-10.45.33:804][  0]BlueprintLog: New page: 编辑器加载
+[2015.05.08-10.45.33:830][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.05.08-10.45.33:830][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.08-10.45.34:334][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-10.45.34:692][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-10.45.34:879][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.08-10.45.34:879][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.08-10.45.34:882][  0]LogConsoleResponse:Display: 
+[2015.05.08-10.45.34:981][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.08-10.45.35:076][  0]SourceControl: 信息 源码控制已禁用
+[2015.05.08-10.45.35:076][  0]Cmd: MAP LOAD FILE="../../../../../../U3D/1-3-life-choices/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.08-10.45.35:076][  0]LightingResults: New page: 光照构建
+[2015.05.08-10.45.35:084][  0]MapCheck: New page: 地图检测
+[2015.05.08-10.45.35:084][  0]LightingResults: New page: 光照构建
+[2015.05.08-10.45.35:091][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A58645C720
+[2015.05.08-10.45.35:624][  0]LoadErrors:Error: 错误 SkeletalMeshComponent导入失败
+[2015.05.08-10.45.35:915][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.08-10.45.36:809][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.08-10.45.36:810][  0]Cmd: MAP CHECKDEP
+[2015.05.08-10.45.36:810][  0]MapCheck: New page: FirstPersonExampleMap - 2015年5月9日 上午2:45:36
+[2015.05.08-10.45.36:865][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时54.544毫秒完成。
+[2015.05.08-10.45.36:865][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.789
+[2015.05.08-10.45.37:046][  0]LogCollectionManager: Loaded 0 collections in 0.000941 seconds
+[2015.05.08-10.45.37:054][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1696 classes and 261 folders.
+[2015.05.08-10.45.37:067][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.08-10.45.37:077][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.05.08-10.45.37:116][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.08-10.45.37:117][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.08-10.45.37:123][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2015.05.08-10.45.37:150][  0]LogLoad: Full Startup: 11.96 seconds (BP compile: 0.15 seconds)
+[2015.05.08-10.45.37:386][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.05.08-10.45.39:865][  7]LogAssetRegistry: Asset discovery search completed in 6.0457 seconds
+[2015.05.08-10.45.46:284][ 64]Cmd: MAP LOAD FILE="../../../../../../U3D/1-3-life-choices/Content/MR.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.08-10.45.46:284][ 64]LightingResults: New page: 光照构建
+[2015.05.08-10.45.46:309][ 64]LoadErrors: New page: 正在加载地图： MR.umap
+[2015.05.08-10.45.46:310][ 64]MapCheck: New page: 地图检测
+[2015.05.08-10.45.46:310][ 64]LightingResults: New page: 光照构建
+[2015.05.08-10.45.46:318][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5931005E0
+[2015.05.08-10.45.46:403][ 64]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.08-10.45.46:439][ 64]LogAIModule: Creating AISystem for world MR
+[2015.05.08-10.45.46:465][ 64]Cmd: MAP CHECKDEP
+[2015.05.08-10.45.46:465][ 64]MapCheck: New page: MR - 2015年5月9日 上午2:45:46
+[2015.05.08-10.45.46:536][ 64]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时70.4毫秒完成。
+[2015.05.08-10.45.46:536][ 64]LogFileHelpers: Loading map 'MR' took 0.254
+[2015.05.08-10.46.08:398][503]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0023 seconds. Added 15 classes and 2 folders.
+[2015.05.08-10.46.08:407][503]LogInit: Transaction tracking system initialized
+[2015.05.08-10.46.08:408][503]EditorErrors: New page: Matinee初始化
+[2015.05.08-10.46.37:854][138]LogInit: Transaction tracking system initialized
+[2015.05.08-10.46.37:854][138]EditorErrors: New page: Matinee初始化
+[2015.05.08-10.48.01:311][244]LogInit: Transaction tracking system initialized
+[2015.05.08-10.48.01:311][244]EditorErrors: New page: Matinee初始化
+[2015.05.08-10.48.23:375][503]Cmd: TRANSACTION UNDO
+[2015.05.08-10.48.23:376][503]LogEditorTransaction: Undo 更新关键帧
+[2015.05.08-10.48.25:320][528]Cmd: TRANSACTION UNDO
+[2015.05.08-10.48.25:320][528]LogEditorTransaction: Undo 添加关键帧
+[2015.05.08-10.48.26:075][538]Cmd: TRANSACTION UNDO
+[2015.05.08-10.48.26:075][538]LogEditorTransaction: Undo 添加关键帧
+[2015.05.08-10.49.16:725][234]LogInit: Transaction tracking system initialized
+[2015.05.08-10.49.16:725][234]EditorErrors: New page: Matinee初始化
+[2015.05.08-10.50.08:436][882]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-10.50.08:436][882]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-10.50.08:782][882]LogExit: Transaction tracking system shut down
+[2015.05.08-10.50.08:782][882]LogExit: Transaction tracking system shut down
+[2015.05.08-10.50.08:782][882]LogExit: Transaction tracking system shut down
+[2015.05.08-10.50.08:782][882]LogExit: Transaction tracking system shut down
+[2015.05.08-10.50.08:786][882]LogPlayLevel: PIE:  Blueprint regeneration took 350 ms (1 blueprints)
+[2015.05.08-10.50.08:786][882]PIE: New page: PIE会话: MR (2015年5月9日 上午2:50:08)
+[2015.05.08-10.50.09:026][882]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:026][882]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:030][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:030][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:038][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:038][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:044][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:044][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:081][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:081][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:107][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:107][882]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.50.09:201][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.414865s)
+[2015.05.08-10.50.09:202][882]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2015.05.08-10.50.09:202][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.415608s)
+[2015.05.08-10.50.09:256][882]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-10.50.09:258][882]LogAIModule: Creating AISystem for world MR
+[2015.05.08-10.50.09:284][882]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.08-18.50.09
+[2015.05.08-10.50.09:289][882]LogWorld: Bringing up level for play took: 0.030987
+[2015.05.08-10.50.09:292][882]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间0.126
+[2015.05.08-10.50.10:388][904]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:435][905]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:483][906]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:531][907]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:576][908]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:624][909]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:674][910]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:723][911]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:776][912]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:825][913]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:871][914]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:920][915]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.10:970][916]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:023][917]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:073][918]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:127][919]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:174][920]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:228][921]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:276][922]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:326][923]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:376][924]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:427][925]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:499][926]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:528][927]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:578][928]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:629][929]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:683][930]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:735][931]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:789][932]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:840][933]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:892][934]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.11:948][935]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:000][936]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:056][937]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:106][938]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:170][939]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:221][940]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:276][941]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:329][942]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:386][943]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:439][944]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:490][945]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:543][946]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:597][947]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:652][948]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:708][949]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:762][950]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:817][951]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:870][952]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:925][953]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.12:982][954]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.13:035][955]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.13:091][956]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.13:152][957]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.13:209][958]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.13:266][959]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.13:322][960]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.13:982][972]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:034][973]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:092][974]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:148][975]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:202][976]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:257][977]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:314][978]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:374][979]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:431][980]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.14:484][981]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.15:187][993]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.15:244][994]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.15:306][995]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.15:360][996]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.15:420][997]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.15:480][998]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.15:539][999]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:148][182]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:198][183]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:248][184]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:299][185]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:350][186]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:730][193]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:786][194]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:839][195]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:894][196]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.26:952][197]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:008][198]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:065][199]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:118][200]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:170][201]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:222][202]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:272][203]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:321][204]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:370][205]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:418][206]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:464][207]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.27:518][208]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.29:203][242]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.29:259][243]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.29:310][244]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.29:360][245]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.29:421][246]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.29:469][247]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.29:520][248]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:092][259]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:148][260]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:194][261]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:245][262]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:296][263]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:349][264]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:404][265]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:893][274]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:941][275]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.30:997][276]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.31:052][277]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.31:106][278]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.31:158][279]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.31:214][280]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.31:871][291]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.31:928][292]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.31:983][293]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:040][294]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:097][295]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:155][296]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:212][297]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:268][298]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:325][299]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:385][300]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:439][301]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:495][302]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:552][303]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:777][307]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:833][308]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:889][309]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.32:947][310]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:005][311]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:231][315]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:285][316]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:339][317]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:393][318]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:449][319]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:504][320]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:563][321]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:621][322]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:679][323]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:736][324]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:794][325]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:849][326]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.33:905][327]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.35:125][348]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.35:182][349]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.35:238][350]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.35:299][351]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.35:357][352]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.35:416][353]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.37:314][388]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.37:368][389]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.37:421][390]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.37:474][391]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.37:529][392]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.37:585][393]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:158][404]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:209][405]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:262][406]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:313][407]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:368][408]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:418][409]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:471][410]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:526][411]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:582][412]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:636][413]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:692][414]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:747][415]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:809][416]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:868][417]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:926][418]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.38:982][419]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.39:270][424]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.39:330][425]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.39:383][426]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.39:440][427]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.39:497][428]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.39:557][429]LogBlueprintUserMessages: Hello
+[2015.05.08-10.50.41:549][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5907462A0
+[2015.05.08-10.50.58:018][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Content/MR.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.08-10.50.59:886][721]LogSavePackage: Save=1840.255005ms
+[2015.05.08-10.50.59:886][721]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MRDB6C06714F4E688FEA814480A78FEC3B.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MR.umap'
+[2015.05.08-10.51.17:433][119]BlueprintLog: New page: 编译MR
+[2015.05.08-10.51.17:829][119]BlueprintEditorCompileResults: 信息 [0352.64]MR编译成功！[用时395毫秒]
+[2015.05.08-10.51.19:987][152]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-10.51.19:998][152]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-10.51.20:366][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5A1A5E840
+[2015.05.08-10.51.20:372][152]LogPlayLevel: PIE:  Blueprint regeneration took 385 ms (1 blueprints)
+[2015.05.08-10.51.20:372][152]PIE: New page: PIE会话: MR (2015年5月9日 上午2:51:20)
+[2015.05.08-10.51.20:609][152]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:609][152]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:613][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:613][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:620][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:620][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:626][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:626][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:662][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:662][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:688][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:688][152]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.51.20:798][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.424977s)
+[2015.05.08-10.51.20:799][152]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2015.05.08-10.51.20:799][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.425712s)
+[2015.05.08-10.51.20:836][152]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-10.51.20:837][152]LogAIModule: Creating AISystem for world MR
+[2015.05.08-10.51.20:892][152]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.08-18.51.20
+[2015.05.08-10.51.20:900][152]LogWorld: Bringing up level for play took: 0.062507
+[2015.05.08-10.51.20:904][152]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.739
+[2015.05.08-10.51.52:419][734]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5DE890B80
+[2015.05.08-10.52.07:048][  8]LogInit: Transaction tracking system initialized
+[2015.05.08-10.52.07:048][  8]EditorErrors: New page: Matinee初始化
+[2015.05.08-10.53.06:952][928]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-10.53.06:959][928]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-10.53.07:321][928]LogExit: Transaction tracking system shut down
+[2015.05.08-10.53.07:327][928]LogPlayLevel: PIE:  Blueprint regeneration took 375 ms (1 blueprints)
+[2015.05.08-10.53.07:327][928]PIE: New page: PIE会话: MR (2015年5月9日 上午2:53:07)
+[2015.05.08-10.53.07:563][928]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:563][928]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:567][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:567][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:575][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:575][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:581][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:581][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:617][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:617][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:641][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:641][928]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-10.53.07:731][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.402937s)
+[2015.05.08-10.53.07:732][928]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2015.05.08-10.53.07:732][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.403705s)
+[2015.05.08-10.53.07:772][928]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-10.53.07:776][928]LogAIModule: Creating AISystem for world MR
+[2015.05.08-10.53.07:815][928]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.08-18.53.07
+[2015.05.08-10.53.07:820][928]LogWorld: Bringing up level for play took: 0.043186
+[2015.05.08-10.53.07:822][928]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间0.657
+[2015.05.08-10.54.09:201][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A591E560C0
+[2015.05.08-10.54.11:450][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorCompanyChoice)
+[2015.05.08-10.54.37:679][647]LogRenderer:Warning: Reallocating scene render targets to support 1432x928 (Frame:7135).
+[2015.05.08-10.57.01:739][193]LogInit: Transaction tracking system initialized
+[2015.05.08-10.57.01:739][193]EditorErrors: New page: Matinee初始化
+[2015.05.08-10.57.09:965][278]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (DoorCompanyChoice)
+[2015.05.08-10.57.10:932][313]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (DoorCompanyChoice)
+[2015.05.08-10.57.11:898][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorCompanyChoice)
+[2015.05.08-10.57.37:836][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorCompanyChoice)
+[2015.05.08-11.00.14:223][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorCompanyChoice)
+[2015.05.08-11.00.19:186][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorCompanyChoice)
+[2015.05.08-11.00.36:698][726]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-11.00.36:706][726]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-11.00.37:071][726]LogExit: Transaction tracking system shut down
+[2015.05.08-11.00.37:077][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5D64D1260
+[2015.05.08-11.00.37:077][726]LogPlayLevel: PIE:  Blueprint regeneration took 379 ms (1 blueprints)
+[2015.05.08-11.00.37:077][726]PIE: New page: PIE会话: MR (2015年5月9日 上午3:00:37)
+[2015.05.08-11.00.37:335][726]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:335][726]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:339][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:339][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:347][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:347][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:353][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:353][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:389][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:389][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:414][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:414][726]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.00.37:510][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.431327s)
+[2015.05.08-11.00.37:510][726]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2015.05.08-11.00.37:511][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.432065s)
+[2015.05.08-11.00.37:545][726]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-11.00.37:547][726]LogAIModule: Creating AISystem for world MR
+[2015.05.08-11.00.37:615][726]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.08-19.00.37
+[2015.05.08-11.00.37:623][726]LogWorld: Bringing up level for play took: 0.075399
+[2015.05.08-11.00.37:626][726]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间0.461
+[2015.05.08-11.00.52:812][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A590EFCAE0
+[2015.05.08-11.02.53:458][556]BlueprintLog: New page: 编译MR
+[2015.05.08-11.02.53:839][556]BlueprintEditorCompileResults: 信息 [1048.65]MR编译成功！[用时380毫秒]
+[2015.05.08-11.02.53:839][556]BlueprintLog: New page: 编译MR
+[2015.05.08-11.02.54:182][556]BlueprintEditorCompileResults: 信息 [1048.99]MR编译成功！[用时342毫秒]
+[2015.05.08-11.02.55:217][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.08-11.02.56:941][567]LogSavePackage: Save=1700.604614ms
+[2015.05.08-11.02.56:941][567]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MR_Auto1608F0550421D115317F9C0B70288C5F4.tmp' to '../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto1.umap'
+[2015.05.08-11.02.56:983][567]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MR' took 1.907
+[2015.05.08-11.02.56:983][567]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.907
+[2015.05.08-11.02.57:024][567]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyProtoType/Model/Door/无窗门] ([1] browsable assets)...
+[2015.05.08-11.02.57:078][567]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyProtoType/Model/Door/无窗门.无窗门]
+[2015.05.08-11.02.57:078][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyProtoType/Model/Door/无窗门]
+[2015.05.08-11.02.57:081][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyProtoType/Model/Door/无窗门" FILE="../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MyProtoType/Model/Door/无窗门_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.05.08-11.02.57:581][567]LogSavePackage: Save=491.466797ms
+[2015.05.08-11.02.57:581][567]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/无窗门_Auto19D461F3D48B192A36A92B3B5B79228DD.tmp' to '../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MyProtoType/Model/Door/无窗门_Auto1.uasset'
+[2015.05.08-11.02.57:591][567]LogFileHelpers: Auto-saving content packages took 0.608
+[2015.05.08-11.02.59:586][594]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-11.02.59:613][594]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-11.02.59:984][594]LogPlayLevel: PIE:  Blueprint regeneration took 398 ms (1 blueprints)
+[2015.05.08-11.02.59:985][594]PIE: New page: PIE会话: MR (2015年5月9日 上午3:02:59)
+[2015.05.08-11.03.00:222][594]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:222][594]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:226][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:226][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:234][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:234][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:239][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:239][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:276][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:276][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:300][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:300][594]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.00:392][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.406881s)
+[2015.05.08-11.03.00:392][594]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2015.05.08-11.03.00:392][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.407605s)
+[2015.05.08-11.03.00:426][594]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-11.03.00:428][594]LogAIModule: Creating AISystem for world MR
+[2015.05.08-11.03.00:458][594]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.08-19.03.00
+[2015.05.08-11.03.00:463][594]LogWorld: Bringing up level for play took: 0.034630
+[2015.05.08-11.03.00:466][594]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.3
+[2015.05.08-11.03.22:329][977]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5BAC4DD00
+[2015.05.08-11.03.23:351][991]BlueprintLog: New page: PIE之前的自动重新编译
+[2015.05.08-11.03.23:366][991]LogPlayLevel: [PIE] Compiling MR before PIE...
+[2015.05.08-11.03.23:751][991]LogPlayLevel: PIE:  Blueprint regeneration took 400 ms (1 blueprints)
+[2015.05.08-11.03.23:751][991]PIE: New page: PIE会话: MR (2015年5月9日 上午3:03:23)
+[2015.05.08-11.03.23:986][991]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.23:986][991]LogBlueprint:Warning: FMemberReference::ResolveMember (GetActorForwardVector) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.23:991][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.23:991][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:000][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:000][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:005][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:005][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:042][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:042][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:066][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:066][991]LogBlueprint:Warning: FMemberReference::ResolveMember (ResetTempArrayIndex) bSelfContext == true, but no scope supplied!
+[2015.05.08-11.03.24:158][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.407015s)
+[2015.05.08-11.03.24:158][991]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2015.05.08-11.03.24:159][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MR.MR to /Game/UEDPIE_0_MR.MR (0.407713s)
+[2015.05.08-11.03.24:226][991]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.08-11.03.24:232][991]LogAIModule: Creating AISystem for world MR
+[2015.05.08-11.03.24:300][991]LogWorld: Bringing World /Game/UEDPIE_0_MR.MR up for play (max tick rate 60) at 2015.05.08-19.03.24
+[2015.05.08-11.03.24:305][991]LogWorld: Bringing up level for play took: 0.072175
+[2015.05.08-11.03.24:308][991]PIE: 信息 /Game/UEDPIE_0_MR的‘在编辑器中播放’的起始时间1.142
+[2015.05.08-11.03.58:296][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5B8A1F6A0
+[2015.05.08-11.04.09:855][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Content/MR.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.08-11.04.11:610][748]LogSavePackage: Save=1714.446289ms
+[2015.05.08-11.04.11:610][748]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MRE59088FE4DD6B1B0330625905450778A.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MR.umap'
+[2015.05.08-11.04.33:412][ 55]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MyProtoType'
+[2015.05.08-11.04.34:561][ 74]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MyProtoType/Model'
+[2015.05.08-11.04.45:520][259]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MyProtoType/Model'
+[2015.05.08-11.04.58:271][530]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\RMG\Desktop\拉门.fbx)
+[2015.05.08-11.04.58:297][530]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.08-11.04.58:297][530]LogFbx: ItemName: Model, ItemCount : 2
+[2015.05.08-11.04.58:297][530]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.05.08-11.04.58:297][530]LogFbx: ItemName: Material, ItemCount : 1
+[2015.05.08-11.05.00:139][530]LogFbx: Loading FBX Scene from C:\Users\RMG\Desktop\拉门.fbx
+[2015.05.08-11.05.00:149][530]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.08-11.05.00:155][530]LogLinker:Warning: 无法寻找到文件'/Game/MyProtoType/Model/Elevator/FrontColor'
+[2015.05.08-11.05.00:156][530]LogLinker:Warning: 无法寻找到文件'/Game/MyProtoType/Model/Elevator/FrontColor'
+[2015.05.08-11.05.00:156][530]LogUObjectGlobals:Warning: 寻找对象'MaterialInterface /Game/MyProtoType/Model/Elevator/FrontColor.FrontColor'失败
+[2015.05.08-11.05.00:171][530]LogMaterial: Missing cached shader map for material FrontColor, compiling. 
+[2015.05.08-11.05.00:207][530]LogFbx:Warning: Triangulating static mesh Mesh1
+[2015.05.08-11.05.00:219][530]LogFbx: == Initial material list:
+[2015.05.08-11.05.00:219][530]LogFbx: 0: FrontColor
+[2015.05.08-11.05.00:219][530]LogFbx: == After sorting:
+[2015.05.08-11.05.00:219][530]LogFbx: 0: FrontColor
+[2015.05.08-11.05.00:219][530]LogFbx: == Mapping table:
+[2015.05.08-11.05.00:219][530]LogFbx:   sort 0 -> 0
+[2015.05.08-11.05.00:265][530]LogStaticMesh: 正在构建静态网格物体拉门...
+[2015.05.08-11.05.00:369][530]LogStaticMesh: Built static mesh [104.067451ms] /Game/MyProtoType/Model/Elevator/拉门.拉门
+[2015.05.08-11.05.00:526][530]FBXImport:Warning: 警告 警告： 在该FBX场景中没有找到平滑组信息。请确保在导入该文件之前，在FBX导入器插件中启用'Export Smoothing Groups（导出平滑组）'选项。即时对于不支持平滑组的工具，FBX在导出时也会生成适当的平滑数据，以便在导入时可以推断出正确的顶点法线。 
+[2015.05.08-11.05.00:581][530]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.08-11.05.00:581][530]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MyProtoType/Model/Elevator'
+[2015.05.08-11.05.08:460][643]LogActorFactory: Actor Factory created 拉门
+[2015.05.08-11.05.11:012][690]LogActorFactory: Actor Factory created 拉门
+[2015.05.08-11.06.20:664][548]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight1)
+[2015.05.08-11.06.22:286][579]Cmd: DELETE
+[2015.05.08-11.06.22:286][579]Cmd: ACTOR DELETE
+[2015.05.08-11.06.22:324][579]LogEditorActor: Deleted Actor: SpotLight
+[2015.05.08-11.06.22:385][579]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2015.05.08-11.06.25:787][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2015.05.08-11.06.26:274][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall)
+[2015.05.08-11.06.27:422][672]Cmd: DELETE
+[2015.05.08-11.06.27:422][672]Cmd: ACTOR DELETE
+[2015.05.08-11.06.27:434][672]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.08-11.06.27:467][672]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2015.05.08-11.06.31:169][743]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2015.05.08-11.06.31:755][754]Cmd: DELETE
+[2015.05.08-11.06.31:755][754]Cmd: ACTOR DELETE
+[2015.05.08-11.06.31:771][754]LogEditorActor: Deleted Actor: SpotLight
+[2015.05.08-11.06.31:805][754]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2015.05.08-11.06.32:279][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall2)
+[2015.05.08-11.06.32:748][772]Cmd: DELETE
+[2015.05.08-11.06.32:748][772]Cmd: ACTOR DELETE
+[2015.05.08-11.06.32:754][772]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.08-11.06.32:774][772]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2015.05.08-11.06.33:526][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Wall3)
+[2015.05.08-11.06.33:932][798]Cmd: DELETE
+[2015.05.08-11.06.33:932][798]Cmd: ACTOR DELETE
+[2015.05.08-11.06.33:950][798]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.08-11.06.33:983][798]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.05.08-11.06.34:400][806]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2015.05.08-11.06.34:805][816]Cmd: DELETE
+[2015.05.08-11.06.34:805][816]Cmd: ACTOR DELETE
+[2015.05.08-11.06.34:825][816]LogEditorActor: Deleted Actor: SpotLight
+[2015.05.08-11.06.34:886][816]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2015.05.08-11.06.37:079][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Content/MR.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.08-11.06.38:817][866]LogSavePackage: Save=1712.866089ms
+[2015.05.08-11.06.38:817][866]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MR49F42EDE40534ADAC3649085554EA7F1.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MR.umap'
+[2015.05.08-11.06.48:049][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.07.05:918][471]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.05.08-11.07.11:219][599]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Animations'
+[2015.05.08-11.07.12:237][625]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Audio'
+[2015.05.08-11.07.13:026][645]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.08-11.07.13:949][668]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Character'
+[2015.05.08-11.07.14:782][690]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Maps'
+[2015.05.08-11.07.19:623][810]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.05.08-11.07.51:637][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.08.44:244][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.09.13:592][258]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.05.08-11.09.16:789][320]Cmd: DELETE
+[2015.05.08-11.09.16:789][320]Cmd: ACTOR DELETE
+[2015.05.08-11.09.16:798][320]LogEditorActor: Deleted Actor: PointLight
+[2015.05.08-11.09.16:886][320]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2015.05.08-11.16.37:220][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A590F2B7E0
+[2015.05.08-11.16.37:301][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.08-11.16.39:026][116]LogSavePackage: Save=1712.913696ms
+[2015.05.08-11.16.39:026][116]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MR_Auto28252B2A24E56C291C1FBC9A65B34D11D.tmp' to '../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto2.umap'
+[2015.05.08-11.16.39:081][116]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MR' took 1.907
+[2015.05.08-11.16.39:081][116]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.907
+[2015.05.08-11.16.39:122][116]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyProtoType/Model/Elevator/拉门] ([1] browsable assets)...
+[2015.05.08-11.16.39:176][116]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyProtoType/Model/Elevator/拉门.拉门]
+[2015.05.08-11.16.39:176][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyProtoType/Model/Elevator/拉门]
+[2015.05.08-11.16.39:743][116]LogSavePackage: Save=554.413452ms
+[2015.05.08-11.16.39:744][116]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/拉门_Auto21AA0849F40B8400AEF673693D765D4CA.tmp' to '../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MyProtoType/Model/Elevator/拉门_Auto2.uasset'
+[2015.05.08-11.16.39:845][116]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyProtoType/Model/Elevator/FrontColor] ([1] browsable assets)...
+[2015.05.08-11.16.39:930][116]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyProtoType/Model/Elevator/FrontColor.FrontColor]
+[2015.05.08-11.16.39:930][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyProtoType/Model/Elevator/FrontColor]
+[2015.05.08-11.16.40:518][116]LogSavePackage: Save=580.839111ms
+[2015.05.08-11.16.40:519][116]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/FrontColor_Auto2DCD299E142709583C4D70EA72810A075.tmp' to '../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MyProtoType/Model/Elevator/FrontColor_Auto2.uasset'
+[2015.05.08-11.16.40:561][116]LogFileHelpers: Auto-saving content packages took 1.481
+[2015.05.08-11.20.40:349][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.22.08:931][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.22.24:840][151]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (拉门)
+[2015.05.08-11.22.55:589][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.26.47:239][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.08-11.26.49:001][356]LogSavePackage: Save=1742.188965ms
+[2015.05.08-11.26.49:001][356]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MR_Auto32417373F498D2C0A3B6CC798FD300FDB.tmp' to '../../../../../../U3D/1-3-life-choices/Saved/Autosaves/Game/MR_Auto3.umap'
+[2015.05.08-11.26.49:043][356]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MR' took 1.881
+[2015.05.08-11.26.49:043][356]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.881
+[2015.05.08-11.27.37:160][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.27.51:505][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门2)
+[2015.05.08-11.28.45:347][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.28.48:021][334]LogInit: Transaction tracking system initialized
+[2015.05.08-11.28.48:021][334]EditorErrors: New page: Matinee初始化
+[2015.05.08-11.29.33:430][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门)
+[2015.05.08-11.30.02:260][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (拉门2)
+[2015.05.08-11.33.46:704][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Content/MR.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.08-11.33.46:726][ 55]LogExit: Transaction tracking system shut down
+[2015.05.08-11.33.48:461][ 55]LogSavePackage: Save=1716.833984ms
+[2015.05.08-11.33.48:461][ 55]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MRAD2643F34F5516D734FAE28D1DB0B738.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MR.umap'
+[2015.05.08-11.34.35:584][746]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.05.08-11.39.07:829][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MR" FILE="../../../../../../U3D/1-3-life-choices/Content/MR.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.08-11.39.09:687][534]LogSavePackage: Save=1786.989868ms
+[2015.05.08-11.39.09:687][534]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/MRB0E07EEB40437964CE3DEF84BCAAB9CC.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MR.umap'
+[2015.05.08-11.39.14:420][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyProtoType/Model/Door/无窗门" FILE="../../../../../../U3D/1-3-life-choices/Content/MyProtoType/Model/Door/无窗门.uasset" SILENT=true
+[2015.05.08-11.39.14:431][553]LogSavePackage: Save=3.640318ms
+[2015.05.08-11.39.14:431][553]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/无窗门5B2D1C55413A59F8DA67219E607CA8F8.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MyProtoType/Model/Door/无窗门.uasset'
+[2015.05.08-11.39.14:482][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyProtoType/Model/Elevator/FrontColor" FILE="../../../../../../U3D/1-3-life-choices/Content/MyProtoType/Model/Elevator/FrontColor.uasset" SILENT=true
+[2015.05.08-11.39.14:919][553]LogSavePackage: Save=434.140076ms
+[2015.05.08-11.39.14:919][553]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/FrontColorC4F4EB22443ECF0D01015EAFB56CFFD4.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MyProtoType/Model/Elevator/FrontColor.uasset'
+[2015.05.08-11.39.14:982][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyProtoType/Model/Elevator/拉门" FILE="../../../../../../U3D/1-3-life-choices/Content/MyProtoType/Model/Elevator/拉门.uasset" SILENT=true
+[2015.05.08-11.39.15:404][553]LogSavePackage: Save=419.122284ms
+[2015.05.08-11.39.15:404][553]LogSavePackage: Moving '../../../../../../U3D/1-3-life-choices/Saved/拉门564F1B7C4EE948B66AF49FAC0BF28A4E.tmp' to '../../../../../../U3D/1-3-life-choices/Content/MyProtoType/Model/Elevator/拉门.uasset'
+[2015.05.08-11.39.15:815][554]Cmd: QUIT_EDITOR
+[2015.05.08-11.39.16:027][554]LogExit: Preparing to exit.
+[2015.05.08-11.39.16:651][554]LogExit: Editor shut down
+[2015.05.08-11.39.16:652][554]LogExit: Transaction tracking system shut down
+[2015.05.08-11.39.16:653][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5A1A5C7C0
+[2015.05.08-11.39.16:653][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5C3C2AB60
+[2015.05.08-11.39.16:653][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5D71A7F60
+[2015.05.08-11.39.16:653][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A58C331A80
+[2015.05.08-11.39.16:653][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5D71A5DA0
+[2015.05.08-11.39.16:720][554]LogExit: Object subsystem successfully closed.
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (180)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module DistCurveEditor (179)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module Matinee (178)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.08-11.39.16:762][554]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.08-11.39.16:763][554]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.08-11.39.17:454][554]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.08-11.39.17:454][554]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.08-11.39.17:454][554]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.08-11.39.17:454][554]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.08-11.39.17:454][554]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.08-11.39.17:455][554]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.08-11.39.17:560][554]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.08-11.39.17:560][554]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.08-11.39.17:560][554]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.08-11.39.17:561][554]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.08-11.39.17:811][554]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.08-11.39.17:813][554]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.08-11.39.17:814][554]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.08-11.39.17:815][554]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.08-11.39.17:815][554]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.08-11.39.17:815][554]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.08-11.39.17:916][554]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.08-11.39.17:916][554]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.08-11.39.17:921][554]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.08-11.39.17:921][554]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.08-11.39.17:921][554]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.08-11.39.17:921][554]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.08-11.39.17:921][554]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.08-11.39.17:921][554]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.08-11.39.17:921][554]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.08-11.39.17:921][554]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.08-11.39.17:922][554]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.08-11.39.17:922][554]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.08-11.39.17:922][554]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.08-11.39.17:922][554]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.08-11.39.17:922][554]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.08-11.39.17:922][554]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.08-11.39.17:922][554]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.08-11.39.17:928][554]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.08-11.39.17:928][554]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.08-11.39.17:928][554]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.08-11.39.17:928][554]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.08-11.39.17:929][554]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.08-11.39.17:929][554]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.08-11.39.17:929][554]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.08-11.39.17:929][554]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.08-11.39.17:929][554]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.08-11.39.17:929][554]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.08-11.39.18:014][554]LogDerivedDataCache: Shutdown
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.08-11.39.18:014][554]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.08-11.39.18:015][554]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.08-11.39.18:016][554]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.08-11.39.18:016][554]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.08-11.39.18:016][554]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.08-11.39.18:038][554]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.08-11.39.18:038][554]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.08-11.39.18:038][554]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.08-11.39.18:038][554]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.08-11.39.18:038][554]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.08-11.39.18:038][554]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.08-11.39.18:038][554]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.08-11.39.18:038][554]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.08-11.39.18:039][554]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.08-11.39.18:040][554]LogExit: Exiting.
+[2015.05.08-11.39.18:096][554]Log file closed, 05/08/15 19:39:18
